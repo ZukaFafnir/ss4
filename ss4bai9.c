@@ -6,7 +6,7 @@ int main(){
 	if(year>0){
 		if(month>1&&month<=12){
 		
-			if(year%400==0 || (year%4==0 && !year%100==0)){
+			if(year%400==0 || (year%4==0 && year%100==0)){
 				if(month==2){
 					if(day>1&&day<=29 ){
 					printf("valid data %d/%d/%d",year,month,day);}
