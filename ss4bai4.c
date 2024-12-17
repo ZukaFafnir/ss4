@@ -10,7 +10,7 @@ int main(){
 		    printf("this month has 30 days");
 		    break;
 		case 2:
-			printf("this month has 28 days");
+			printf("this month has 28 or 29 days");
 			break;
 		default:
 			printf("invalid data!");
